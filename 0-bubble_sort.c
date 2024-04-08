@@ -9,7 +9,7 @@
  * Return: 0
  */
 
-void swap(int *arr, int i, int j, int size)
+void swap(int *arr, int i, int j, size_t size)
 {
 	int k;
 	int temp = arr[i];
