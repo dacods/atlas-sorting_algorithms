@@ -2,8 +2,8 @@
 
 /**
  * insertion_sort_list - Function that sorts using insertion
- * @lsit: list of elements
- * Return: 0 
+ * @list: list of elements
+ * Return: 0
  */
 
 void insertion_sort_list(listint_t **list)
@@ -29,7 +29,7 @@ void insertion_sort_list(listint_t **list)
 			current->next = check;
 			current->prev = check->prev;
 			check->prev = current;
-			
+
 			if (current->prev != NULL)
 				current->prev->next = current;
 			else
